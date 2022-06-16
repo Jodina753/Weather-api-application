@@ -113,8 +113,6 @@ class App extends Component {
             </div>
           </div> */}
 
-         
-
         <div></div>
         <div className="main-container">
           <div className="search-container">
@@ -126,10 +124,9 @@ class App extends Component {
             />
             <Search search={this.search} />
             <div />
-
           </div>
 
-          <GeoBtn locay={this.locay}/>
+          <GeoBtn locay={this.locay} />
 
           <div className="weather-container">
             <div className="weather-info">
